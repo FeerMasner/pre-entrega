@@ -1,0 +1,103 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+/* estilos main */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+main h1{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+h1 span{
+    color: white;
+    background-color: #52a57c;
+    border-radius: 15px;
+    padding: 0.5rem 0.5rem;
+}
+
+h2{
+    font-weight: bolder;
+    background-color: #52a57c;
+    color: white;
+    padding: 0.5rem 2rem;
+    margin: 2rem;
+    border-radius: 15px;
+}
+
+main p{
+    color: #52a57c;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+/* estilos section */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+section p{
+    color: #52a57c;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+section img{
+    width: 70px;
+}
+
+section a{
+    text-decoration: none;
+    color: #52a57c;
+}
+
+
+
+/* estilos footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #52a57c;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
