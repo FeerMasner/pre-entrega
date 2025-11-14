@@ -1,0 +1,44 @@
+//SIN PARAMETROS
+@mixin espejos{
+    width: 85%;
+}
+
+@mixin main-desk{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    text-align: right;
+}
+
+@mixin img-uno-dos{
+    grid-column: 1;
+    width: 50%;
+    margin-left: 15rem;
+}
+
+@mixin text-uno-dos{
+    grid-column: 2;
+    margin-right: 15rem;
+}
+
+@mixin info-espejos{
+    grid-column: 2;
+    margin: 10rem;
+    text-align: center;
+}
+
+@mixin img-espejos{
+    grid-column: 1;
+    width: 30%;
+}
+
+//HIBRIDO
+@mixin main-section($padding){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: $padding;
+}

@@ -1,0 +1,8 @@
+//RESET
+@use "base/reset";
+//HOME
+@use "./pages/inicio";
+//MQ TABLET
+@use "./layout/mq-tablet";
+//MQ DESKTOP
+@use "./layout/mq-desktop";
